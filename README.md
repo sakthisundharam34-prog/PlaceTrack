@@ -54,7 +54,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ```bash
 git clone https://github.com/sakthisundharam34-prog/PlaceTrack.git
-cd PlaceTrack/PlaceTrack/PlaceTrack
 ```
 
 ### 2. Backend Setup
