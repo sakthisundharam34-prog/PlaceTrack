@@ -5,8 +5,8 @@ import { useAuth } from '../context/AuthContext';
 function Login() {
   const { user, signIn } = useAuth();
   const nav = useNavigate();
-  const [username, setUsername] = useState('admin');
-  const [password, setPassword] = useState('admin123');
+  const [username, setUsername] = useState('sakthi');
+  const [password, setPassword] = useState('sakthi123');
   const [error, setError] = useState('');
 
   if (user) return <Navigate to="/dashboard" />;
@@ -45,7 +45,7 @@ function Login() {
         
         {error && <span className="error">{error}</span>}
         <br/>
-        <small>Use the default admin credentials to login.</small>
+        <small>Use the default credentials to login.</small>
       </div>
     </div>
   );
